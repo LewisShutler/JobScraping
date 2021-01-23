@@ -40,6 +40,7 @@ def find_jobs():
             date = date_elem.text.strip()
             dates.append(date)
 
+        #Goes to next page
         next = soup.find('a', attrs={'aria-label':'Next'})
         try:
             next = (next["href"])
