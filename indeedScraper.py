@@ -4,7 +4,7 @@ import pandas as pd
 import urllib
 
 def find_jobs():  
-
+    """This function asks the user to input a job title, location and number of pages to search indeed.co.uk for jobs and saves to an excel document."""
     job_title = input("Please enter a job title that you want to search indeed for:")
     location = input("Please enter a location:")
     pages_wanted = int(input("Number of pages would you like to search Indeed.co.uk for:"))
